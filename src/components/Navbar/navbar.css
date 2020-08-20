@@ -1,0 +1,75 @@
+.nav-container{
+    display: flex; 
+}
+.list-container{
+  display: grid; 
+}
+
+a.home-is-where-the-heart-is{
+  font-size: 50px; 
+  text-decoration: none; 
+  color: red; 
+}
+
+ul{
+    list-style: none; 
+}
+
+li{
+    margin-right: 40px; 
+}
+
+a.nav-links{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px; 
+    text-decoration: none; 
+    color: #000; 
+}
+
+a:hover{
+    animation-name: rainbow;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+  }
+
+  @keyframes rainbow{
+    0% {
+    color: #df4040; 
+    }
+      
+    10%{
+    color: #e56333;
+    }
+      
+    20%{
+    color: #ecab3b; 
+    }
+    
+     30%{
+    color: #f9e264; 
+    }
+      40%{
+    color: #9bebaa; 
+    }
+      50%{
+    color: #96f0e4; 
+    }
+      60%{
+    color: #74d3fa; 
+    }
+      70%{
+    color: #2c9ae7; 
+    }
+      80%{
+    color: #dc9ffb; 
+    }
+      90%{
+    color: #ff90ba; 
+    }
+      100%{
+    color: #ff72b4; 
+    }
+    
+    }
+

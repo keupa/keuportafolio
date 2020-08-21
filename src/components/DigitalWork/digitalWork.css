@@ -1,0 +1,32 @@
+.digital-work-container{
+    display: flex;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.temporal-announcement{
+    display: grid; 
+    justify-items: center;
+    margin-top: 40px; 
+    width: 60vw; 
+    font-family: 'Raleway', sans-serif; 
+}
+
+.pieimg{
+    width: 30%;
+    height: auto; 
+}
+
+.thispage{
+    margin-bottom: 0px; 
+}
+
+.under{
+    margin-top: 0px; 
+    font-size: 60px; 
+}
+
+.backmessage{
+    font-family: 'Roboto Mono', monospace;
+}
+

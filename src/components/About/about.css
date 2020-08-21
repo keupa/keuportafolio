@@ -1,0 +1,19 @@
+.about-container{
+    overflow: hidden;
+    background-color: beige; 
+}
+
+h2.hi{
+    margin: 40px 0px 0px 100px; 
+    font-weight: normal; 
+    font-family: 'Roboto Mono', monospace; 
+}
+h1.thisme{
+    margin: 0px 0px 0px 100px; 
+}
+
+h3.thisalsome{
+    margin: 0px 0px 20px 100px; 
+    font-weight: normal; 
+    font-family: 'Roboto Mono', monospace; 
+}

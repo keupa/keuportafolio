@@ -1,11 +1,12 @@
 import React from 'react'
+import './about.css'
 
 function About() {
     return(
         <div className='about-container'>
-            <h2>Hi! I'm</h2>
-            <h1>Fernanda de la Peña</h1>
-            <h3>a.k.a Keupa <span>★</span></h3>
+            <h2 className='hi'>Hi! my name is</h2>
+            <h1 className='thisme'>Fernanda de la Peña</h1>
+            <h3 className='thisalsome'>a.k.a Keupa <span>★</span></h3>
 
             <p>Multidisciplinary front-end developer and visual designer based in Mexico.
                 I'm passionate about 

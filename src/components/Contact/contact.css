@@ -1,0 +1,26 @@
+.contact-container{
+    overflow: hidden; 
+}
+
+.letswork{
+    margin: 40px 0px 20px 100px; 
+}
+
+.contact-info-container{
+    margin: 0px 180px 0px 180px; 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px; 
+}
+
+.smiley-face{
+    font-family: 'Raleway', sans-serif !important; 
+}
+
+.no-underline{
+    text-decoration: none; 
+    color: #000; 
+}
+
+a.no-underline:visited{
+    color: #FFA28E;
+}

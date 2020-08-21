@@ -1,14 +1,23 @@
 .nav-container{
     display: flex; 
-}
-.list-container{
-  display: grid; 
+    height: 60px;
+    background-color: pink;  
+    justify-content: center; 
+    align-items: center; 
 }
 
-a.home-is-where-the-heart-is{
+.list-container{
+  display: grid; 
+  grid-template-columns: repeat(4, auto);
+  justify-content: end;
+  width: 90vw; 
+}
+
+h1.home-is-where-the-heart-is{
   font-size: 50px; 
   text-decoration: none; 
   color: red; 
+  margin-left: 40px;
 }
 
 ul{
@@ -19,11 +28,22 @@ li{
     margin-right: 40px; 
 }
 
-a.nav-links{
+li.nav-links{
     font-family: 'Raleway', sans-serif;
-    font-size: 30px; 
+    font-size: 25px; 
     text-decoration: none; 
     color: #000; 
+}
+
+li:hover{
+  animation-name: rainbow;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+}
+
+a{
+  text-decoration: none; 
 }
 
 a:hover{

@@ -1,25 +1,24 @@
 import React, { Fragment } from 'react'
 import { projectsData } from './projectsData'
-
-const getTags = projectsData.getTags
+import './frontEnd.css'
 
 function ProjectsCards () {
     return(
-        <div>
+        <div className='projects-cards-container'>
             {projectsData.map((project, index) => {
                 return(
-                    <Fragment key={index}>
-                        <h2>{project.title}</h2>
-                        <img src={project.imageUrl} alt={project.title} /> 
-                        <p>{project.description}</p>
-                        <a href={project.demoUrl}>Demo</a>
-                        <a href={project.repositoryUrl}>Github Repository</a>
+                    <div className='projects-cards' key={index}>
+                        <h2 className='project-title'>{project.title}</h2>
+                        <img src={project.imageUrl} alt={project.title} className='p-img'/> 
+                        <p className='project-description'>{project.description}</p>
+                        <a href={project.demoUrl} className='demolink'>Demo</a>
+                        <a href={project.repositoryUrl} className='repolink'>Repository</a>
                         {project.tags.map((tag, index) =>{
                             return(
-                            <p key={'tag' + index}>{tag}</p>
+                                <p key={'tag' + index} className='tags'>{tag}</p>
                             )
                         })}
-                    </Fragment>
+                    </div>
                     )
             })}
         </div>

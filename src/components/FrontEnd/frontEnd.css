@@ -1,0 +1,57 @@
+.front-end-container{
+    overflow: hidden;
+}
+
+.projects-cards-container{
+    margin: 0px 180px 0px 180px;
+    display: grid; 
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 50px 60px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.projects-cards{
+    width: 550px;  
+}
+
+.p-img{
+    width: inherit; 
+}
+
+a.demolink{
+    margin-right: 10px; 
+}
+
+a.repolink{
+    padding-right: 500px;
+}
+
+a.repolink:visited{
+    color: #FFA28E;
+}
+
+a.demolink:visited{
+    color: #FFA28E;
+}
+
+.project-description{
+    margin: 10px 0px 10px 0px; 
+}
+
+.tags{
+    background-color: #AFF1E5; 
+    display: inline-block;
+    border-radius: 2px;
+    margin-right: 10px; 
+    padding: 4px 5px 4px 4px; 
+}
+
+.project-title{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1.project-title{
+    margin: 40px 0px 20px 100px; 
+    font-size: 60px; 
+}
+
